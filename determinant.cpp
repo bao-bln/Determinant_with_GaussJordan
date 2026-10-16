@@ -62,8 +62,6 @@ double determinant() {
 }
 
 int main() {
-    freopen ("a.inp", "r", stdin);
-    freopen ("a.out", "w", stdout);
     inMatrix();
 
     std::cout << "Det: " << determinant() << '\n';
